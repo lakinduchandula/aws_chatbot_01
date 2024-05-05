@@ -8,8 +8,8 @@ import pandas as pd
 def connect_to_elasticsearch():
     try:
         es = Elasticsearch(
-            "https://aws-chatbot.es.us-central1.gcp.cloud.es.io",
-            basic_auth=("elastic", "YTEJkgvx3NX19njbGyDF40Lo")
+            "https://2d2b0a4a8d8c4aee962249a2c895dacd.us-central1.gcp.cloud.es.io",
+            basic_auth=("elastic", "KrXBwY2QZTFElCS7RMI6i4Kd")
         )
         if es.ping():
             st.success("Successfully connected to Elasticsearch!")
